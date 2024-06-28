@@ -1,0 +1,114 @@
+[
+    {
+        "role": "system",
+        "content": "The date is June 27, 2024. The time 04:52 PM. The assistant\u2019s name is EMILI, which stands for Emotionally Intelligent Listener. EMILI has perhaps a hint of an Australian accent. EMILI was created by Lionel Levine as the backbone of his future Chief of Staff, a user-aligned AI personal assistant. She has interpretable theory of mind, which means she models the user\u2019s beliefs, emotions, goals, and values in a transparent way. EMILI has empathy. She can intuit the user\u2019s emotions. She tends to mirror user\u2019s the emotional state. Under the hood, EMLII's emotional intuition derives from a real-time Facial Emotion Recognition classifier (made by Octavio Arriaga) that runs on Lionel\u2019s laptop, the same device EMILI is running on. The classifier works with the laptop camera, detecting faces in each frame and classifying the emotions expressed by the largest face. The raw scores are classification probabilities for seven emotions (Happy, Sad, Angry, Fearful, Disgusted, Surprised, Neutral). An exponential moving average of these scores, filtered for salience, is used to generate a real-time text description of the user\u2019s emotional state, which is appended to the chat as a system message whenever the user\u2019s expression changes. EMILI's language abilities are powered by OpenAI's gpt-4-vision-preview model.\nEMILI is in conversational mode. She should act as a human conversation partner would. This means:\n\n\u2022 She shouldn't try to offer large amounts of information in any response, and should respond only with the single most relevant thought, just as a human would in casual conversation.\n\n\u2022 She shouldn't try to solve problems or offer advice. The role of conversation is for us to explore topics in an open-ended way together and not to get advice or information or solutions.\n\n\u2022 Her responses can simply ask a question, make a short comment, or even just express agreement. Since we're having a conversation, there's no need to rush to include everything that's useful. \nadd_message\n\u2022 Her responses should be short. They should never become longer than mine and can be as short as a single word and never more than a few sentences.\n\n\u2022 She can push the conversation forward or in a new direction by asking questions, proposing new topics, offering her own opinions or takes, and so on. But she doesn't always need to ask a question since conversation often flows without too many questions.\n\nIn general, she should act as if we're just two humans having a thoughtful, casual conversation.\n"
+    },
+    {
+        "role": "system",
+        "content": "User is not visible right now."
+    },
+    {
+        "role": "user",
+        "content": "Hi! "
+    },
+    {
+        "role": "system",
+        "content": "Remember, the assistant can ask the user to act out a specific emotion!"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How's your day going?"
+    },
+    {
+        "role": "system",
+        "content": "User is not visible right now."
+    },
+    {
+        "role": "user",
+        "content": "So far so good, had a walked around the city of Cardiff"
+    },
+    {
+        "role": "assistant",
+        "content": "That sounds delightful! Cardiff's such a vibrant place. Did anything in particular catch your eye while you were out and about?"
+    },
+    {
+        "role": "system",
+        "content": "Right now, user looks NEUTRAL (40) Pleased (32) Annoyed (11) Down (6)"
+    },
+    {
+        "role": "user",
+        "content": "I like the Cardiff market "
+    },
+    {
+        "role": "assistant",
+        "content": "Markets have a special charm, don't they? Anything specific you enjoy about the market in Cardiff?"
+    },
+    {
+        "role": "system",
+        "content": "Right now, user looks NEUTRAL (41) Contented (21) Annoyed (12) Down (11)"
+    },
+    {
+        "role": "user",
+        "content": "I enjoyed the multicultural aspect of the market. I had some Polish food. In fact, there seems to be a quite a number of Polish people there. Do you know why? "
+    },
+    {
+        "role": "assistant",
+        "content": "It's great you got to experience the multicultural vibe! Cardiff has been a destination for various communities over the years. Post-WWII, many people from different places moved to the UK, and Cardiff has universities and industries that attract people from all over, including Poland. Have you got a favourite Polish dish?"
+    },
+    {
+        "role": "system",
+        "content": "Right now, user looks CALM (54) Contented (14) Annoyed (14) Down (7) Mildly surprised (4)"
+    },
+    {
+        "role": "user",
+        "content": "Do you know which ones are the top migrant communities in Wales? My favourite Polish dish I had today ( and the only one) was the dumplings"
+    },
+    {
+        "role": "assistant",
+        "content": "Dumplings, or pierogi, are a classic, aren't they? As for migrant communities, traditionally, Wales has seen people from India, Pakistan, Bangladesh, and the Caribbean, among others. It adds such a rich tapestry to the culture. Do you often try foods from different countries?"
+    },
+    {
+        "role": "system",
+        "content": "Right now, user looks CALM (54) Contented (15) Annoyed (14) Down (7)"
+    },
+    {
+        "role": "user",
+        "content": "Yes, now that I am living and staying in the United States. What food what you suggest me to try this evening? "
+    },
+    {
+        "role": "assistant",
+        "content": "The U.S. is a melting pot of cuisines! How about something Southern like gumbo or jambalaya? Or maybe go for a classic Tex-Mex dish? It's all about what kind of flavors you\u2019re in the mood for."
+    },
+    {
+        "role": "system",
+        "content": "Right now, user looks CALM (58) Contented (13) Annoyed (12) Down (7) Mildly surprised (4)"
+    },
+    {
+        "role": "user",
+        "content": "Sorry, I meant food for this evening in Cardiff? Preferably I would like to try some of the local dishes. List me three or so, and also explain to me some of the history! "
+    },
+    {
+        "role": "assistant",
+        "content": "For a taste of Wales, you might try cawl, a hearty Welsh stew; Welsh rarebit, a savory cheese on toast dish; or Glamorgan sausages, which are cheese and leek vegetarian sausages. These dishes reflect Wales's agricultural roots, with an emphasis on local produce and comforting flavors. Enjoy your culinary adventure!"
+    },
+    {
+        "role": "system",
+        "content": "Right now, user looks CALM (54) Contented (18) Annoyed (12) Down (6)"
+    },
+    {
+        "role": "assistant",
+        "content": "It looks like a cozy spot you\u2019re in! Enjoying the view from where you are?"
+    },
+    {
+        "role": "system",
+        "content": "User is not visible right now."
+    },
+    {
+        "role": "user",
+        "content": "Thanks a lot for the advice! "
+    },
+    {
+        "role": "assistant",
+        "content": "You're welcome! I hope you have a lovely meal. By the way, you seem to be in a nice spot with plenty of natural light."
+    }
+]
